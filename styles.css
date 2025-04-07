@@ -1,0 +1,155 @@
+*{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+
+}
+
+.contenir{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background: #1e272e;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #485460;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.text{
+    width: 50%;
+    background: linear-gradient(135deg,#00d8d6, #4ecdc4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1e272e;
+    text-align: center;
+    padding: 0 40px;
+}
+.logen{
+    width: 50%;
+    background: linear-gradient(135deg,#485460, #0c0e0d);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1e272e;
+    text-align: center;
+    padding: 0 40px;
+}
+.logen input{
+    width: 90%;
+    height: 27px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border: solid;
+    outline: none;
+}
+.logen button{
+    width: 90%;
+    height: 27px;
+    border-radius: 10px;
+    background:linear-gradient(135deg,#00d8d6, #4ecdc4);
+    transition: 1s;
+   
+}
+.logen button:hover{
+    transform: scale(1.1);
+    letter-spacing: 0.2em;
+}
+.logen p{
+    width: 90%;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.logen h2{
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+@media (max-width:767px){
+    .contenir{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        background: #1e272e;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #485460;
+        margin-left: 0;
+    
+    
+    }
+    .logen{
+        width: 72%;
+        background: linear-gradient(135deg,#485460, #0c0e0d);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #1e272e;
+        text-align: center;
+        padding: 0 40px;
+    }
+    .logen input{
+        width: 100%;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+        border: solid;
+        outline: none;
+    }
+    
+    
+}
+@media (max-width:767px)and(max-width:1400px){
+    .contenir{
+        display: flex;
+        width: 100%;
+        height: 800px;
+        background: #1e272e;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #485460;
+        margin-left: 0;
+    
+    
+    }
+    .logen{
+        width: 72%;
+        background: linear-gradient(135deg,#485460, #0c0e0d);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #1e272e;
+        text-align: center;
+        padding: 0 40px;
+    }
+    .logen input{
+        width: 100%;
+        height: 35px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+        border: solid;
+        outline: none;
+    }
+    
+    
+}
+
