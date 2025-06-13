@@ -74,7 +74,6 @@
 
 }
 
-/*
 
 @media (max-width:767px){
     .contenir{
@@ -126,7 +125,7 @@
     
     
 }
-*/
+
 @media (max-width:767px)and(max-width:1400px){
     .contenir{
         display: flex;
