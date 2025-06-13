@@ -90,7 +90,7 @@
     
     }
     .logen{
-        width: 80%;
+        width: 100%;
         background: linear-gradient(135deg,#485460, #0c0e0d);
         height: 100%;
         display: flex;
@@ -102,7 +102,7 @@
         padding: 0 40px;
     }
 .text{
-    width: 20%;
+    width: 0%;
     background: linear-gradient(135deg,#00d8d6, #4ecdc4);
     height: 100%;
     display: flex;
