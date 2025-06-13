@@ -74,7 +74,6 @@
     color: rgb(255, 255, 255);
 
 }
-/*
 
 @media (max-width:767px){
     .contenir{
@@ -91,7 +90,7 @@
     
     }
     .logen{
-        width: 100%;
+        width: 80%;
         background: linear-gradient(135deg,#485460, #0c0e0d);
         height: 100%;
         display: flex;
@@ -103,7 +102,7 @@
         padding: 0 40px;
     }
 .text{
-    width: 0%;
+    width: 10%;
     background: linear-gradient(135deg,#00d8d6, #4ecdc4);
     height: 100%;
     display: flex;
@@ -126,7 +125,7 @@
     
     
 }
-*/
+
 @media (max-width:767px)and(max-width:1400px){
     .contenir{
         display: flex;
