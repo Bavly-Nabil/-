@@ -90,7 +90,7 @@
     
     }
   .sign-up{
-        width: 72%;
+        width: 80%;
         background: linear-gradient(135deg,#485460, #0c0e0d);
         height: 100%;
         display: flex;
@@ -128,7 +128,7 @@
     
     
     }
-    .logen{
+    .sign-up{
         width: 72%;
         background: linear-gradient(135deg,#485460, #0c0e0d);
         height: 100%;
@@ -140,7 +140,7 @@
         text-align: center;
         padding: 0 40px;
     }
-    .logen input{
+   .sign-up input{
         width: 100%;
         height: 35px;
         border-radius: 10px;
@@ -153,5 +153,6 @@
     
 
 }
+
 
 
