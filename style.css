@@ -84,7 +84,7 @@
         border-radius: 15px;
         overflow: hidden;
         position: relative;
-        border: 2px solid #485460;
+        border: 1px solid #485460;
         margin-left: 0;
     
     
@@ -129,7 +129,7 @@
     
     }
     .sign-up{
-        width: 72%;
+        width: 80%;
         background: linear-gradient(135deg,#485460, #0c0e0d);
         height: 100%;
         display: flex;
@@ -153,6 +153,7 @@
     
 
 }
+
 
 
 
