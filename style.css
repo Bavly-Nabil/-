@@ -101,6 +101,19 @@
         text-align: center;
         padding: 0 40px;
     }
+    .text{
+    width: 30%;
+    background: linear-gradient(135deg,#00d8d6, #4ecdc4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1e272e;
+    text-align: center;
+    padding: 0 40px;
+    }
+    
     .sign-up input{
         width: 100%;
         height: 30px;
@@ -153,6 +166,7 @@
     
 
 }
+
 
 
 
